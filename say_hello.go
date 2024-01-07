@@ -1,11 +1,5 @@
-package main
-
-import "fmt"
+package go_module
 
 func SayHello(name string) string {
 	return "Hello " + name
-}
-
-func main() {
-	fmt.Println(SayHello("Rivaldo"))
 }
